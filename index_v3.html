@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Otto Nyongole | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navigation -->
+  <nav class="bg-white shadow-md fixed w-full z-10">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-700">Watasha.Tech</h1>
+      
+      <!-- Desktop Menu -->
+      <ul class="hidden md:flex space-x-6 text-lg">
+        <li><a href="#home" class="hover:text-blue-500">Home</a></li>
+        <li><a href="#cv" class="hover:text-blue-500">CV</a></li>
+        <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+        <li><a href="#blog" class="hover:text-blue-500">Blog</a></li>
+        <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+      </ul>
+
+      <!-- Mobile Menu Button -->
+      <button id="menu-btn" class="md:hidden text-2xl focus:outline-none">
+        ☰
+      </button>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+      <ul class="flex flex-col p-4 space-y-3 text-lg">
+        <li><a href="#home" class="hover:text-blue-500">Home</a></li>
+        <li><a href="#cv" class="hover:text-blue-500">CV</a></li>
+        <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+        <li><a href="#blog" class="hover:text-blue-500">Blog</a></li>
+        <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-100 to-blue-300 text-center px-6">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Otto_Nyongole.jpg/675px-Otto_Nyongole.jpg?20240724151054"
+         alt="Otto Nyongole"
+         class="w-48 h-48 rounded-full border-4 border-white shadow-lg mb-6">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">Engineer. Innovator. Open-source Builder.</h2>
+    <p class="text-lg max-w-2xl">
+      Bridging telecommunications, open-source software, and sustainable farming.
+    </p>
+    <a href="#projects" class="mt-6 px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700">Explore My Work</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="cv" class="py-20 max-w-4xl mx-auto px-6">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Otto_Nyongole.jpg/675px-Otto_Nyongole.jpg?20240724151054"
+         alt="Otto Nyongole"
+         class="w-56 h-56 rounded-full mb-6 md:mb-0">
+    <h3 class="text-3xl font-bold mb-6 text-center">About Me</h3>
+    <p class="text-lg leading-relaxed text-gray-700">
+      I am Otto Nyongole, an Electronics and Telecommunication Engineer with 7 years of experience in the mobile communications industry. My career spans technical maintenance, network optimization, and system integration. Beyond telecom, I am a budding software developer exploring PHP, Python,HTML/Tailwind css, JavaScript, C, DevOps and MediaWiki customization, with a focus on building tools for knowledge sharing and farm management.
+Passionate about technology that drives real-world impact, I am currently developing digital solutions for sustainable pig farming and actively contributing to Wikimedia projects in Tanzania. My mission is to bridge engineering, open-source software, and agriculture to empower communities and create sustainable growth
+.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-12 text-center">Projects</h3>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg">
+          <h4 class="text-xl font-semibold">Telecom Work</h4>
+          <p class="text-gray-600 mt-2">Maintaining and optimizing mobile networks with 99.99% availability (2G, 3G, 4G 5G), Maintaining microwave links(Microwave Networking), Maintaining Fiber optic links and Project commissioning for different vendors including Huawei technologies and Ciena technologies.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg">
+          <h4 class="text-xl font-semibold">Software Development</h4>
+          <p class="text-gray-600 mt-2">PHP, C, HTML/Tailwind css, JavaScript, Python, APIs, DevOps and MediaWiki customizations.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg">
+          <h4 class="text-xl font-semibold">MediaWiki Contributions</h4>
+          <p class="text-gray-600 mt-2">Active member of Wikimedia community User Group Tanzania since 2016, Saving as local Administrator for swahili wikipedia, contributing to knowledge-sharing projects(Writing and editing artical covering different topics), MediaWiki customizations, and Wikimania participation (2023–2025) Been in Co-orgenizing Team (COT)for Wikimania 2025, working on projects and events.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg">
+          <h4 class="text-xl font-semibold">Farm Tech</h4>
+          <p class="text-gray-600 mt-2">Building digital tools to track feeding, breeding, and health for pig farms.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="py-20 max-w-6xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold mb-6">Blog</h3>
+    <p class="text-lg text-gray-700">Coming soon: Thoughts on telecom, coding, open-source, and farm innovation.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-blue-50">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
+      <p class="mb-4">Let’s collaborate on telecom, software, or farm tech projects.</p>
+      <a href="mailto:youremail@example.com" class="text-blue-700 font-semibold underline">nyongole.otto@gmail.com</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white shadow-inner py-4 text-center">
+    <p class="text-gray-500">© 2025 Otto Nyongole | Watasha.Tech | Photo by Olimasy, CC BY 4.0 (via Wikimedia Commons).</p>
+  </footer>
+
+  <!-- JavaScript for Mobile Menu -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>
